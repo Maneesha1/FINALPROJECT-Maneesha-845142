@@ -1,0 +1,60 @@
+
+        <div class="jumborton">
+          <div class="col">
+          
+      <div class=" row justify-content-center" >
+         <form  class="w-50" [formGroup]="itemForm">
+            <div class="form-group">
+              <h1 >ViewProfile</h1>
+              <div class="card shadow bg-transparent p-4" >
+
+
+<!-- 
+<div class="container-fluid">
+  <div class="col">
+  <div class="row">
+     <div class="col-lg-4">
+
+
+  </div>
+
+
+  <div class="col-lg-5">
+<div  class="jumbotron jumbotron-fluid " >
+    <div class='welcome'>View Profile</div> -->
+
+      <div class="input-fields">
+        <label>ID</label>
+        <input type="text" formControlName="buyerId" placeholder="Enter ID" class="form-control input-line full-width" [ngClass]="{ 'is-invalid': submitted && f.buyerId.errors }" />
+          
+          <label>NAME</label>
+          <input type="text" formControlName="userName" placeholder="Enter Name" class="form-control input-line full-width" [ngClass]="{ 'is-invalid': submitted && f.UserName.errors }" />
+          
+        <label>Password</label>
+        <input type="password" formControlName="password" placeholder="Enter Password" class="form-control input-line full-width" [ngClass]="{ 'is-invalid': submitted && f.Password.errors }" />
+          
+        <label>EMAIL</label>
+          <input type="text" formControlName="emailId" placeholder="Enter Email" class="form-control input-line full-width" [ngClass]="{ 'is-invalid': submitted && f.emailId.errors }" />
+         
+          <label>MOBILE</label>
+          <input type="text" formControlName="mobileNo" placeholder="Enter Mobile Number" class="form-control input-line full-width" [ngClass]="{ 'is-invalid': submitted && f.mobileNo.errors }" />
+          
+        
+        </div>
+        <br><br>
+      <div class="text-center">
+        <!-- <button class="ghost-round full-width " id=b1>View</button> -->
+        <button class="ghost-round full-width" type="button" (click)="EditProfile()">EditProfile</button>
+   
+      </div>
+              </div>
+            </div>
+    </form>
+
+
+  </div>
+</div>
+</div>
+
+
+

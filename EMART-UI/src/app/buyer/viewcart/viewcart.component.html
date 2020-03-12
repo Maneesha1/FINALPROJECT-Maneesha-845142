@@ -1,0 +1,60 @@
+ <br><br><br>
+<h1>View Cart</h1>
+<div class="container">
+    <div class="row">
+      <div class="col-md-3" *ngFor="let item of cart">
+          <div class="card">
+            <h5 class="card-title">{{item.itemname}}</h5>
+             <img class="card-img " id="i1" src="assets/images/{{item.image}}" alt="Card image cap"> 
+              <div class="card-body" >
+                <!-- ItemId:{{item.itemId}}<br/>
+                CategoryId:{{item.categoryId}}<br/>
+                SubCategoryId:{{item.subcategoryId}}<br/>
+                 SellerId: {{item.sellerId}}<br/> -->
+                Price: {{item.price}}<br/>
+                  Description:{{item.description}}<br/>
+                    
+            </div>
+            <div class="card-footer">
+              <div class="text-center">
+                <button class="btn btn-primary mr-1" (click)="Buy(item)" >Buy </button>
+                <button class="btn btn-danger mr-1" (click)="Delete(item.cartId)">Delete</button>
+            </div>
+            </div>     
+          </div>
+          <br>
+        </div>
+      </div>
+    </div>
+    <!-- <br><br><br>
+<p>View Cart</p>
+<div class="container">
+    <div class="row">
+      <div class="col-md-3" *ngFor="let item of cart">
+          <div class="card">
+            <h5 class="card-title">{{item.itemname}}</h5>
+             <img class="card-img " id="i1" src="assets/images/{{item.image}}" alt="Card image cap"> 
+              <div class="card-body" >
+                 ItemId:{{item.itemId}}<br/>
+                CategoryId:{{item
+                    .categoryId}}<br/>
+                SubCategoryId:{{item.subcategoryId}}<br/>
+                 SellerId: {{item.sellerId}}<br/> -->
+                 <!-- Price: {{item.price}}<br/>
+                  Description:{{item.description}}<br/>
+                     -->
+            <!--</div>
+            <div class="card-footer">
+              <div class="text-center">
+                <button class="btn btn-primary mr-1" (click)="Buy(item)" >Buy </button>
+                <button class="btn btn-danger mr-1" (click)="Delete(item.cartId)">Delete</button>
+            </div>
+            </div>     
+          </div>
+          <br>
+        </div>
+      </div>
+    </div>
+     -->
+
+

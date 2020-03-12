@@ -1,0 +1,133 @@
+<div class="jumborton">
+  <div class="col">
+  
+<div class=" row justify-content-center" >
+ <form  class="w-50" [formGroup]="itemForm" (ngSubmit)="onSubmit()">
+    <div class="form-group">
+      <h1 >Add Items</h1>
+      <div class="card shadow bg-transparent p-4" >
+        <!-- <div class="container-fluid">
+
+    <div class="row">
+       <div class="col-lg-7">
+  
+  
+    </div>
+  
+  
+    <div class="col-lg-5">
+  <div  class="jumbotron jumbotron-fluid " > -->
+    <!-- <h4>Add Items</h4>
+    <form [formGroup]="itemForm" > -->
+      
+        <div class="form-group ">
+            <label>SellerId</label><br>
+            <input type="text" formControlName="SellerId" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.SellerId.errors }" />
+            <div *ngIf="submitted && f.SellerId.errors" class="invalid-feedback">
+                <div *ngIf="f.SellerId.errors.required"> Id is required</div>
+                <div *ngIf="f.SellerId.errors.pattern">Enter only Alphabets</div>
+            </div>
+        </div>
+  
+        <div class="form-group">
+            <label>CategoryName</label>
+            <select formControlName="CategoryName" class="form-control" (change)="GetSub()">
+                <option *ngFor="let cat of categorylist" [value]="cat.categoryId">{{cat.categoryName}}</option>
+            </select>
+                 
+          </div>
+  
+  
+  
+          <div class="form-group">
+            <label>SubcategoryName</label>
+            <select formControlName="SubcategoryName" class="form-control" >
+                <option *ngFor="let cat of subcategorylist" [value]="cat.subcategoryId">{{cat.subcategoryName}}</option>
+            </select>
+                
+          </div>
+  
+  
+    <div class="form-group ">
+        <label>ItemName</label><br>
+        <input type="text" formControlName="ItemName" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.ItemName.errors }" />
+        <div *ngIf="submitted && f.ItemName.errors" class="invalid-feedback">
+            <div *ngIf="f.ItemName.errors.required"> Name is required</div>
+            <div *ngIf="f.ItemName.errors.pattern">Enter only Alphabets</div>
+        </div>
+    </div>
+    <div class="form-group ">
+        <label>Image</label><br>
+        <input type="file" (change)="fileEvent($event)"/>
+        
+    </div>
+    
+    <div class="text-center">
+      <div *ngFor="let item of itemlist">
+        <div>
+          <img src='assets/images/{{item.image}}' style="height:150px; width:150px;"><br>
+          Name:{{item.name}}
+        </div>
+      </div>
+    
+    </div>
+  
+  <div class="form-group ">
+      <label>Description</label><br>
+      <textarea formControlName="Description" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.Description.errors }" ></textarea>
+      <div *ngIf="submitted && f.Description.errors" class="invalid-feedback">
+         <!-- <div *ngIf="f.Description.errors.required">Description is required</div> -->
+      </div>
+  </div>
+  
+  
+  <div class="form-group">
+    <label>Price</label>
+    <input type="text" formControlName="Price" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.Price.errors }" />
+    <div *ngIf="submitted && f.Price.errors" class="invalid-feedback">
+        <div *ngIf="f.Price.errors.required">Price is required</div>
+        <div *ngIf="f.Price.errors.minlength">u must be at least 6 characters</div>
+    </div>
+  </div>
+  
+  <div class="form-group">
+    <label>StockNumber</label>
+    <input type="text" formControlName="StockNumber" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.StockNumber.errors }" />
+    <div *ngIf="submitted && f.StockNumber.errors" class="invalid-feedback">
+        <div *ngIf="f.StockNumber.errors.required">StockNumber is required</div>
+        <div *ngIf="f.StockNumber.errors.minlength">u must be at least 6 characters</div>
+    </div>
+  </div>
+  
+  <div class="form-group">
+    <label>Remarks</label>
+    <textarea formControlName="Remarks" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.Remarks.errors }" ></textarea>
+    <div *ngIf="submitted && f.Remarks.errors" class="invalid-feedback">
+        <div *ngIf="f.Remarks.errors.required">u is required</div>
+        <div *ngIf="f.Remarks.errors.minlength">u must be at least 6 characters</div>
+    </div>
+  </div>
+  
+  
+  
+  
+  <div class="text-center">
+  
+      <button  type="submit" >Add</button>
+      <button  type="reset" (click)="onReset()" >Reset</button>
+   
+  </div>
+  
+      </div>
+    </div>
+  
+  </form>
+  </div>
+  </div>
+  </div>
+
+  
+  
+  
+  
+  

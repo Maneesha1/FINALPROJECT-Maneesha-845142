@@ -1,0 +1,63 @@
+<br><br><br><br><br>
+<div class="container">
+    <br/> 
+   <table class="table table-bordered">
+     <tr >
+       <!-- <th>ItemId</th> -->
+       <th>Number Of Items</th>
+       <!-- <th>Seller ID</th> -->
+       <th>Transaction Type</th>
+       <th>Ordered Date</th>
+       <th>Transaction ID</th>
+     </tr>
+     <tr *ngFor="let item of transobj" >
+       <!-- <td>{{item.itemId}}</td> -->
+       <td>{{item.numberOfItems}}</td>
+       <!-- <td>{{item.sellerId}}</td> -->
+       <td>{{item.transactionType}}</td>
+       <td>{{item.dateTime}}</td>   
+       <td>{{item.transactionId}}</td>
+     
+     </tr>
+   </table>
+</div>  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <br><br><br>
+<p>Transaction History</p>
+<div class="container">
+    <div class="row">
+      <div class="col-md-3" *ngFor="let item of transobj">
+          <div class="card">
+            <h5 class="card-title">{{item.itemname}}</h5>
+             <img class="card-img " id="i1" src="assets/image/{{item.image}}" alt="Card image cap"> 
+              <div class="card-body" > -->
+                <!-- ItemId:{{item.itemId}}<br/>
+                CategoryId:{{item
+                    .categoryId}}<br/>
+                SubCategoryId:{{item.subcategoryId}}<br/>
+                 SellerId: {{item.sellerId}}<br/> -->
+                 <!-- Price: {{item.price}}<br/>
+                  Description:{{item.description}}<br/>
+                    
+            </div>
+                
+          </div>
+          <br>
+        </div>
+      </div>
+    </div> -->
+

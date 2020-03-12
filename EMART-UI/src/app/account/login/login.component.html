@@ -1,0 +1,187 @@
+<!-- 
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+
+<body id="b2">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-4">
+    
+                <div class="round-shape"> <img class="round-shape" src="https://thumbs.dreamstime.com/b/shopping-bag-neon-icon-elements-web-set-simple-websites-design-mobile-app-info-graphics-dark-gradient-background-148834376.jpg" /> </div>
+                
+            </div>
+            
+        </div>
+    </div> -->
+   
+    
+    <!-- <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+            <div class="topnav">
+
+        <a href="#home"><i class="fa fa-fw fa-home"></i>Home</a>
+        <a href="#"><i class="fa fa-fw fa-user"></i>About Us</a>
+        <a href="#"><i class="fa fa-fw fa-phone"></i>Contact</a>
+
+
+        
+            </div>
+            </div>
+        </div>
+        </div> -->
+        <div class="jumborton">
+            <div class="col">
+            
+        <div class=" row justify-content-center" >
+        
+            <form class="w-50" [formGroup]="loginForm" >
+              <div class="form-group">
+                <h1 >LoginForm</h1>
+                <div class="card shadow bg-transparent p-4" >
+                   
+        <!-- <div class="row">
+            <div class="col-lg-4">
+        
+                <br>
+                <br>
+            </div>
+
+            <div class="col" >
+                <div class="jumborton">
+                    <div class="container">
+                    <h1 >LoginForm</h1>
+                    <form [formGroup]="loginForm" > -->
+                <div class="form-group">
+                    <label >UserName</label>
+                    <input type="text" formControlName="username" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.username.errors }" />
+                    <div *ngIf="submitted && f.username.errors" class="invalid-feedback">
+                        <div *ngIf="f.username.errors.required">UserName is required</div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Password</label>
+                    <input type="password" formControlName="password" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.password.errors }" />
+                    <div *ngIf="submitted && f.password.errors" class="invalid-feedback">
+                        <div *ngIf="f.password.errors.required">Password is required</div>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="role"><input type="radio" formControlName="role" value="buyer">Buyer</label><br>
+                    <label for="role"><input type="radio" formControlName="role" value="seller">Seller</label><br>
+                <div class="row">        
+                    &nbsp; &nbsp;&nbsp;&nbsp; <button class="btn btn-primary col-sm-4 " (click)="Login()">Login</button>&nbsp;&nbsp;
+                    <button class="btn btn-secondary col-sm-4" type="reset" (click)="onReset()">Cancel</button>
+                </div>
+            </div>
+<!-- 
+            <div class="text-center"> 
+                <a [routerLink]="['./registerbuyer']">Register Buyer</a><br>
+                   
+                <a [routerLink]="['./registerseller']">Register Seller</a>
+          </div> -->
+        </div>
+    </div> 
+</form>
+</div>
+</div>
+</div>
+
+
+
+
+            <!-- <div class="text-center">
+                <button class="btn btn-primary mr-1 " id=b1>Login</button>
+                <button class="btn btn-secondary" type="reset" (click)="onReset()" id=b2>Reset</button>
+            </div> -->
+
+            
+
+
+<!-- 
+            <div class=" row justify-content-center">
+        
+                <form class="w-50" [formGroup]="loginForm">
+                  <div class="form-group">
+                    <div class="card shadow bg-transparent p-4" >
+                        <p class="h4 card-header text-center" style="grid-row-end:span ;" style="font-variant-numeric: inherit;">LOGIN</p>
+            <div class="input-group mt-3 mb-3">
+                <div class="input-group-prepend"  class="form_group" >
+                    <span class="input-group-text" >Admin</span>
+                </div>
+                <input type="text" name="username" formControlName="username" class="form-control" />
+            </div>
+
+            <div class="input-group mb-3">
+                <div class="input-group-prepend" class="form-group">
+                    <span class="input-group-text">Password</span>
+                </div>
+                
+                <input type="password" name="password" formControlName="password" class="form-control" />
+            </div>
+          
+            <div class="form-check">
+                <label class="form-check-label" for="check1">
+                <input type="checkbox" class="form-check-input" id="check1" name="remember">Remember me
+                </label>
+            </div>
+         
+            <div class="row justify-content-center">
+                <button type="submit" class="btn btn-info" (click)="Login()">Login</button>
+                <button type="reset" class="btn btn-info ml-4 ">Reset</button></div>
+                
+            </div>
+            
+        </div>
+        </form>
+      </div>
+ -->
+            
+
+
+
+
+<router-outlet></router-outlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

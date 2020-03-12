@@ -1,0 +1,81 @@
+
+ 
+    <!-- <h3 class="text-center text-uppercase">List of Items</h3>  
+    <table class="table table-bordered table-striped">   -->
+
+
+
+<form [formGroup]="viewcatForm" >
+  <div class="container py-5">  
+  
+    <h3 class="text-center text-uppercase text-danger">List of Categories</h3>  
+    <table class="table table-bordered table-striped text-info">  
+
+      <!-- <div class="container">
+         <div class="table-responsive"> -->
+            
+                 <tr>
+                     
+                     <!-- <th>CategoryName</th> -->
+                     <th>CategoryId</th>
+                     <th>CategoryName</th>
+                     <th>Brief Details</th>
+                     <th></th>
+                     <th></th>
+                 </tr>
+                 <tr *ngFor="let item of viewcatList">
+                      <td>{{item.categoryId}}</td>
+                      <td>{{item.categoryName}}</td>
+                      <td>{{item.briefDetails}}</td>
+                      <td><button class="btn btn-primary btn-lg  mr-1" (click)="GetCatById(item.categoryId)" data-toggle="modal" data-target="#myModal">Edit</button></td>
+                      <td><button class="btn btn-danger  btn-lg  mr-1" (click)="Delete(item.categoryId)">Delete</button></td>
+                 </tr>
+             
+    </table>
+    
+         </div>
+         
+  
+  </form>
+  
+  <div class="container" >
+      <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">Modal Header</h4>
+            </div>
+            <div class="modal-body">
+              <form [formGroup]="viewcatForm">
+                  <div class="form-group">
+                      <label>Category Id</label>
+                      <input type="text" formControlName="CategoryId" class="form-control" readonly/>
+                  </div>
+                  
+                  <div class="form-group">
+                      <label>Category Name</label>
+                      <input type="text" formControlName="CategoryName" class="form-control" required/>
+                  </div>
+             
+  
+                  <div class="form-group">
+                      <label>Brief Details</label>
+                      <input type="text" formControlName="BriefDetails" class="form-control" required/>
+                  </div>
+                 
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal" (click)="Edit()"> Save</button>
+            </div>
+          </form>
+          </div>
+          
+        </div>
+      </div>
+      
+    </div>
+    <router-outlet></router-outlet>
+    
+   
+  
+  

@@ -1,0 +1,62 @@
+<div class="jumborton">
+  <div class="col">
+  
+<div class=" row justify-content-center" >
+ <form  class="w-50" [formGroup]="itemForm">
+    <div class="form-group">
+      <h1 >ViewProfile</h1>
+      <div class="card shadow bg-transparent p-4" >
+
+
+<!-- 
+<div  class="jumbotron jumbotron-fluid " >
+    <div class='welcome'>View Profile</div>
+    <form [formGroup]="itemForm"> -->
+      <div class="input-fields">
+        <label>ID</label>
+        <input type="text" formControlName="sellerId" placeholder="Enter ID" class="form-control input-line full-width" [ngClass]="{ 'is-invalid': submitted && f.sellerId.errors }" />
+          
+          <label>NAME</label>
+          <input type="text" formControlName="userName" placeholder="Enter Name" class="form-control input-line full-width" [ngClass]="{ 'is-invalid': submitted && f.userName.errors }" />
+          
+        <label>Password</label>
+        <input type="password" formControlName="password" placeholder="Enter Password" class="form-control input-line full-width" [ngClass]="{ 'is-invalid': submitted && f.password.errors }" />
+          
+        <label>EMAIL</label>
+          <input type="text" formControlName="emailId" placeholder="Enter Email" class="form-control input-line full-width" [ngClass]="{ 'is-invalid': submitted && f.emailId.errors }" />
+         
+          <label>MOBILE</label>
+          <input type="text" formControlName="mobileNo" placeholder="Enter Mobile Number" class="form-control input-line full-width" [ngClass]="{ 'is-invalid': submitted && f.mobileNo.errors }" />
+          
+         <label>Company Name</label>
+          <input type="text" formControlName="companyName" placeholder="Enter Company Name" class="form-control input-line full-width" [ngClass]="{ 'is-invalid': submitted && f.companyName.errors }" />
+          
+         <label>Address</label>
+          <input type="text" formControlName="postalAddress" placeholder="Enter Address" class="form-control input-line full-width" [ngClass]="{ 'is-invalid': submitted && f.postalAddress.errors }" />
+          
+         <label>GSTIN</label>
+          <input type="text" formControlName="gstin" placeholder="Enter GstIn" class="form-control input-line full-width" [ngClass]="{ 'is-invalid': submitted && f.gstin.errors }" />
+          <label>BriefDetails</label>
+          <input type="text" formControlName="briefDetails" placeholder="Enter Brief Details" class="form-control input-line full-width" [ngClass]="{ 'is-invalid': submitted && f.briefDetails.errors }" />
+          <label>WEBSITE</label>
+          <input type="text" formControlName="website" placeholder="Enter Brief Details" class="form-control input-line full-width" [ngClass]="{ 'is-invalid': submitted && f.website.errors }" />
+          <!-- <label>CreateDateTime</label>
+          <input type="datetime" formControlName="createDateTime" placeholder="Enter Brief Details" class="form-control input-line full-width" [ngClass]="{ 'is-invalid': submitted && f.createDateTime.errors }" /> -->
+          
+      </div>
+        <br><br>
+      <div class="text-center">
+        <!-- <button class="ghost-round full-width " id=b1>View</button> -->
+        <button class="ghost-round full-width" type="button" (click)="EditProfile()">EditProfile</button>
+        <button class="ghost-round full-width " type="reset" (click)="onReset()" id=b2>Reset</button>
+      </div>
+      </div>
+    </div>
+    </form>
+
+  
+  </div>
+</div>
+</div>
+<router-outlet></router-outlet>
+
