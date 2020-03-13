@@ -86,7 +86,8 @@
         </div>
         <div class="form-group">
             <label>PostalAddress</label>
-            <input type="text" formControlName="PostalAddress" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.PostalAddress.errors }" />
+
+            <textarea formControlName="PostalAddress" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.PostalAddress.errors }"></textarea>
             <div *ngIf="submitted && f.PostalAddress.errors" class="invalid-feedback">
                 <div *ngIf="f.PostalAddress.errors.required">Address is required</div>
             </div>

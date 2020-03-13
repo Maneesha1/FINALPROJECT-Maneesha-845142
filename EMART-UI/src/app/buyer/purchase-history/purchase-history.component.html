@@ -3,17 +3,17 @@
     <br/> 
    <table class="table table-bordered">
      <tr >
-       <!-- <th>ItemId</th> -->
+       <th>ItemId</th>
        <th>Number Of Items</th>
-       <!-- <th>Seller ID</th> -->
+       <th>Seller ID</th>
        <th>Transaction Type</th>
        <th>Ordered Date</th>
        <th>Transaction ID</th>
      </tr>
      <tr *ngFor="let item of transobj" >
-       <!-- <td>{{item.itemId}}</td> -->
+       <td>{{item.itemId}}</td>
        <td>{{item.numberOfItems}}</td>
-       <!-- <td>{{item.sellerId}}</td> -->
+       <td>{{item.sellerId}}</td>
        <td>{{item.transactionType}}</td>
        <td>{{item.dateTime}}</td>   
        <td>{{item.transactionId}}</td>

@@ -26,7 +26,11 @@ export class BuyproductComponent implements OnInit {
     name:[''],
     dateTime:[''],
     numberOfItems:[''],
-    remarks:['']
+     remarks:[''],
+    price:[''],
+    itemName:[''],
+    image:[''],
+
   })
   this.item=JSON.parse(localStorage.getItem('item'));
   console.log(this.item);
@@ -35,15 +39,18 @@ export class BuyproductComponent implements OnInit {
   onSubmit()
   {
     this.pobj=new Transactionhistory();
-    this.pobj.id='T'+Math.round(Math.random()*999);
-    this.pobj.transactionId=this.pobj.id;
-    this.pobj.buyerId=localStorage.getItem('buyerId');
+    this.pobj.transactionId='T'+Math.round(Math.random()*999);
+    // this.pobj.transactionId=this.pobj.id;
+    this.pobj.buyerId=localStorage.getItem('BuyerId');
     this.pobj.sellerId=this.item.sellerId;
     this.pobj.numberOfItems=this.buyerform.value["numberOfItems"];
     this.pobj.itemId=this.item.itemId;
     this.pobj.transactionType=this.buyerform.value["transactionType"]
        this.pobj.dateTime=this.buyerform.value["dateTime"];
-       this.pobj.remarks=this.buyerform.value["remarks"];
+       this.pobj.image=this.item.image;
+       this.pobj.itemName=this.item.itemName;
+       this.pobj.price=this.item.price;
+      //  this.pobj.remarks=this.buyerform.value["remarks"];
        console.log(this.pobj);
        this.service.BuyItem(this.pobj).subscribe(res=>{
          console.log("Purchase was Sucessfull");
