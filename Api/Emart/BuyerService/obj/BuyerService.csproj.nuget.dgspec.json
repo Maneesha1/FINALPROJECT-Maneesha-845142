@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\FINALPROJECT-Maneesha-845142\\API\\Emart\\BuyerService\\BuyerService.csproj": {}
+    "E:\\FINALPROJECT-Maneesha-845142\\Api\\Emart\\BuyerService\\BuyerService.csproj": {}
   },
   "projects": {
-    "E:\\FINALPROJECT-Maneesha-845142\\API\\Emart\\BuyerService\\BuyerService.csproj": {
+    "E:\\FINALPROJECT-Maneesha-845142\\Api\\Emart\\BuyerService\\BuyerService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\FINALPROJECT-Maneesha-845142\\API\\Emart\\BuyerService\\BuyerService.csproj",
+        "projectUniqueName": "E:\\FINALPROJECT-Maneesha-845142\\Api\\Emart\\BuyerService\\BuyerService.csproj",
         "projectName": "BuyerService",
-        "projectPath": "E:\\FINALPROJECT-Maneesha-845142\\API\\Emart\\BuyerService\\BuyerService.csproj",
+        "projectPath": "E:\\FINALPROJECT-Maneesha-845142\\Api\\Emart\\BuyerService\\BuyerService.csproj",
         "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "E:\\FINALPROJECT-Maneesha-845142\\API\\Emart\\BuyerService\\obj\\",
+        "outputPath": "E:\\FINALPROJECT-Maneesha-845142\\Api\\Emart\\BuyerService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -55,6 +55,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[3.1.2, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.9.10, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",

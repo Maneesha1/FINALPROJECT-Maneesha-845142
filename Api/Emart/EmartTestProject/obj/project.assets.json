@@ -1057,6 +1057,12 @@
           }
         }
       },
+      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.9.10": {
+        "type": "package",
+        "build": {
+          "build/_._": {}
+        }
+      },
       "Microsoft.VisualStudio.Web.CodeGeneration/3.1.1": {
         "type": "package",
         "dependencies": {
@@ -2654,6 +2660,7 @@
           "Microsoft.AspNetCore.Authentication.JwtBearer": "3.1.2",
           "Microsoft.AspNetCore.Cors": "2.2.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.2",
+          "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.9.10",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "3.1.1",
           "System.IdentityModel.Tokens.Jwt": "5.6.0"
         },
@@ -2672,7 +2679,8 @@
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "Microsoft.AspNetCore.Cors": "2.2.0",
-          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.2"
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.2",
+          "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.9.10"
         },
         "compile": {
           "bin/placeholder/AdminService.dll": {}
@@ -2690,6 +2698,7 @@
         "dependencies": {
           "Microsoft.AspNetCore.Cors": "2.2.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.2",
+          "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.9.10",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "3.1.1"
         },
         "compile": {
@@ -2708,6 +2717,7 @@
         "dependencies": {
           "Microsoft.AspNetCore.Cors": "2.2.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.2",
+          "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.9.10",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "3.1.1"
         },
         "compile": {
@@ -3976,6 +3986,69 @@
         "lib/uap10.0/testhost.dll",
         "microsoft.testplatform.testhost.16.2.0.nupkg.sha512",
         "microsoft.testplatform.testhost.nuspec"
+      ]
+    },
+    "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.9.10": {
+      "sha512": "d5/5CDc4TAjrgO9oyyj+FHUDVumxgrlCMJqDtUX4GyTnr1Q/BP88PhnVunRZ9AQcL2UQkM4EkRNyFelPXunHtw==",
+      "type": "package",
+      "path": "microsoft.visualstudio.azure.containers.tools.targets/1.9.10",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "EULA.md",
+        "build/Container.props",
+        "build/Container.targets",
+        "build/Microsoft.VisualStudio.Azure.Containers.Tools.Targets.props",
+        "build/Microsoft.VisualStudio.Azure.Containers.Tools.Targets.targets",
+        "build/ToolsTarget.props",
+        "build/ToolsTarget.targets",
+        "microsoft.visualstudio.azure.containers.tools.targets.1.9.10.nupkg.sha512",
+        "microsoft.visualstudio.azure.containers.tools.targets.nuspec",
+        "tools/Microsoft.VisualStudio.Containers.Tools.Common.dll",
+        "tools/Microsoft.VisualStudio.Containers.Tools.Shared.dll",
+        "tools/Microsoft.VisualStudio.Containers.Tools.Tasks.dll",
+        "tools/Newtonsoft.Json.dll",
+        "tools/cs/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
+        "tools/cs/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
+        "tools/cs/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll",
+        "tools/de/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
+        "tools/de/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
+        "tools/de/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll",
+        "tools/es/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
+        "tools/es/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
+        "tools/es/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll",
+        "tools/fr/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
+        "tools/fr/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
+        "tools/fr/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll",
+        "tools/it/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
+        "tools/it/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
+        "tools/it/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll",
+        "tools/ja/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
+        "tools/ja/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
+        "tools/ja/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll",
+        "tools/ko/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
+        "tools/ko/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
+        "tools/ko/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll",
+        "tools/pl/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
+        "tools/pl/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
+        "tools/pl/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll",
+        "tools/pt-BR/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
+        "tools/pt-BR/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
+        "tools/pt-BR/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll",
+        "tools/ru/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
+        "tools/ru/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
+        "tools/ru/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll",
+        "tools/tr/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
+        "tools/tr/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
+        "tools/tr/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll",
+        "tools/utils/KillProcess.exe",
+        "tools/zh-Hans/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
+        "tools/zh-Hans/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
+        "tools/zh-Hans/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll",
+        "tools/zh-Hant/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
+        "tools/zh-Hant/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
+        "tools/zh-Hant/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll"
       ]
     },
     "Microsoft.VisualStudio.Web.CodeGeneration/3.1.1": {
@@ -8780,11 +8853,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\FINALPROJECT-Maneesha-845142\\API\\Emart\\EmartTestProject\\EmartTestProject.csproj",
+      "projectUniqueName": "E:\\FINALPROJECT-Maneesha-845142\\Api\\Emart\\EmartTestProject\\EmartTestProject.csproj",
       "projectName": "EmartTestProject",
-      "projectPath": "E:\\FINALPROJECT-Maneesha-845142\\API\\Emart\\EmartTestProject\\EmartTestProject.csproj",
+      "projectPath": "E:\\FINALPROJECT-Maneesha-845142\\Api\\Emart\\EmartTestProject\\EmartTestProject.csproj",
       "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-      "outputPath": "E:\\FINALPROJECT-Maneesha-845142\\API\\Emart\\EmartTestProject\\obj\\",
+      "outputPath": "E:\\FINALPROJECT-Maneesha-845142\\Api\\Emart\\EmartTestProject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -8804,17 +8877,17 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "E:\\FINALPROJECT-Maneesha-845142\\API\\Emart\\AccountServices\\AccountServices.csproj": {
-              "projectPath": "E:\\FINALPROJECT-Maneesha-845142\\API\\Emart\\AccountServices\\AccountServices.csproj"
+            "E:\\FINALPROJECT-Maneesha-845142\\Api\\Emart\\AccountServices\\AccountServices.csproj": {
+              "projectPath": "E:\\FINALPROJECT-Maneesha-845142\\Api\\Emart\\AccountServices\\AccountServices.csproj"
             },
-            "E:\\FINALPROJECT-Maneesha-845142\\API\\Emart\\AdminService\\AdminService.csproj": {
-              "projectPath": "E:\\FINALPROJECT-Maneesha-845142\\API\\Emart\\AdminService\\AdminService.csproj"
+            "E:\\FINALPROJECT-Maneesha-845142\\Api\\Emart\\AdminService\\AdminService.csproj": {
+              "projectPath": "E:\\FINALPROJECT-Maneesha-845142\\Api\\Emart\\AdminService\\AdminService.csproj"
             },
-            "E:\\FINALPROJECT-Maneesha-845142\\API\\Emart\\BuyerService\\BuyerService.csproj": {
-              "projectPath": "E:\\FINALPROJECT-Maneesha-845142\\API\\Emart\\BuyerService\\BuyerService.csproj"
+            "E:\\FINALPROJECT-Maneesha-845142\\Api\\Emart\\BuyerService\\BuyerService.csproj": {
+              "projectPath": "E:\\FINALPROJECT-Maneesha-845142\\Api\\Emart\\BuyerService\\BuyerService.csproj"
             },
-            "E:\\FINALPROJECT-Maneesha-845142\\API\\Emart\\SellerServices\\SellerServices.csproj": {
-              "projectPath": "E:\\FINALPROJECT-Maneesha-845142\\API\\Emart\\SellerServices\\SellerServices.csproj"
+            "E:\\FINALPROJECT-Maneesha-845142\\Api\\Emart\\SellerServices\\SellerServices.csproj": {
+              "projectPath": "E:\\FINALPROJECT-Maneesha-845142\\Api\\Emart\\SellerServices\\SellerServices.csproj"
             }
           }
         }

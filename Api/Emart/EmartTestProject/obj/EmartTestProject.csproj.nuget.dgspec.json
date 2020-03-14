@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\FINALPROJECT-Maneesha-845142\\API\\Emart\\EmartTestProject\\EmartTestProject.csproj": {}
+    "E:\\FINALPROJECT-Maneesha-845142\\Api\\Emart\\EmartTestProject\\EmartTestProject.csproj": {}
   },
   "projects": {
-    "E:\\FINALPROJECT-Maneesha-845142\\API\\Emart\\AccountServices\\AccountServices.csproj": {
+    "E:\\FINALPROJECT-Maneesha-845142\\Api\\Emart\\AccountServices\\AccountServices.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\FINALPROJECT-Maneesha-845142\\API\\Emart\\AccountServices\\AccountServices.csproj",
+        "projectUniqueName": "E:\\FINALPROJECT-Maneesha-845142\\Api\\Emart\\AccountServices\\AccountServices.csproj",
         "projectName": "AccountServices",
-        "projectPath": "E:\\FINALPROJECT-Maneesha-845142\\API\\Emart\\AccountServices\\AccountServices.csproj",
+        "projectPath": "E:\\FINALPROJECT-Maneesha-845142\\Api\\Emart\\AccountServices\\AccountServices.csproj",
         "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "E:\\FINALPROJECT-Maneesha-845142\\API\\Emart\\AccountServices\\obj\\",
+        "outputPath": "E:\\FINALPROJECT-Maneesha-845142\\Api\\Emart\\AccountServices\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -60,6 +60,10 @@
               "target": "Package",
               "version": "[3.1.2, )"
             },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.9.10, )"
+            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[3.1.1, )"
@@ -91,14 +95,14 @@
         }
       }
     },
-    "E:\\FINALPROJECT-Maneesha-845142\\API\\Emart\\AdminService\\AdminService.csproj": {
+    "E:\\FINALPROJECT-Maneesha-845142\\Api\\Emart\\AdminService\\AdminService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\FINALPROJECT-Maneesha-845142\\API\\Emart\\AdminService\\AdminService.csproj",
+        "projectUniqueName": "E:\\FINALPROJECT-Maneesha-845142\\Api\\Emart\\AdminService\\AdminService.csproj",
         "projectName": "AdminService",
-        "projectPath": "E:\\FINALPROJECT-Maneesha-845142\\API\\Emart\\AdminService\\AdminService.csproj",
+        "projectPath": "E:\\FINALPROJECT-Maneesha-845142\\Api\\Emart\\AdminService\\AdminService.csproj",
         "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "E:\\FINALPROJECT-Maneesha-845142\\API\\Emart\\AdminService\\obj\\",
+        "outputPath": "E:\\FINALPROJECT-Maneesha-845142\\Api\\Emart\\AdminService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -142,6 +146,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[3.1.2, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.9.10, )"
             }
           },
           "imports": [
@@ -166,14 +174,14 @@
         }
       }
     },
-    "E:\\FINALPROJECT-Maneesha-845142\\API\\Emart\\BuyerService\\BuyerService.csproj": {
+    "E:\\FINALPROJECT-Maneesha-845142\\Api\\Emart\\BuyerService\\BuyerService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\FINALPROJECT-Maneesha-845142\\API\\Emart\\BuyerService\\BuyerService.csproj",
+        "projectUniqueName": "E:\\FINALPROJECT-Maneesha-845142\\Api\\Emart\\BuyerService\\BuyerService.csproj",
         "projectName": "BuyerService",
-        "projectPath": "E:\\FINALPROJECT-Maneesha-845142\\API\\Emart\\BuyerService\\BuyerService.csproj",
+        "projectPath": "E:\\FINALPROJECT-Maneesha-845142\\Api\\Emart\\BuyerService\\BuyerService.csproj",
         "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "E:\\FINALPROJECT-Maneesha-845142\\API\\Emart\\BuyerService\\obj\\",
+        "outputPath": "E:\\FINALPROJECT-Maneesha-845142\\Api\\Emart\\BuyerService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -217,6 +225,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[3.1.2, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.9.10, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
@@ -245,14 +257,14 @@
         }
       }
     },
-    "E:\\FINALPROJECT-Maneesha-845142\\API\\Emart\\EmartTestProject\\EmartTestProject.csproj": {
+    "E:\\FINALPROJECT-Maneesha-845142\\Api\\Emart\\EmartTestProject\\EmartTestProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\FINALPROJECT-Maneesha-845142\\API\\Emart\\EmartTestProject\\EmartTestProject.csproj",
+        "projectUniqueName": "E:\\FINALPROJECT-Maneesha-845142\\Api\\Emart\\EmartTestProject\\EmartTestProject.csproj",
         "projectName": "EmartTestProject",
-        "projectPath": "E:\\FINALPROJECT-Maneesha-845142\\API\\Emart\\EmartTestProject\\EmartTestProject.csproj",
+        "projectPath": "E:\\FINALPROJECT-Maneesha-845142\\Api\\Emart\\EmartTestProject\\EmartTestProject.csproj",
         "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "E:\\FINALPROJECT-Maneesha-845142\\API\\Emart\\EmartTestProject\\obj\\",
+        "outputPath": "E:\\FINALPROJECT-Maneesha-845142\\Api\\Emart\\EmartTestProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -272,17 +284,17 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "E:\\FINALPROJECT-Maneesha-845142\\API\\Emart\\AccountServices\\AccountServices.csproj": {
-                "projectPath": "E:\\FINALPROJECT-Maneesha-845142\\API\\Emart\\AccountServices\\AccountServices.csproj"
+              "E:\\FINALPROJECT-Maneesha-845142\\Api\\Emart\\AccountServices\\AccountServices.csproj": {
+                "projectPath": "E:\\FINALPROJECT-Maneesha-845142\\Api\\Emart\\AccountServices\\AccountServices.csproj"
               },
-              "E:\\FINALPROJECT-Maneesha-845142\\API\\Emart\\AdminService\\AdminService.csproj": {
-                "projectPath": "E:\\FINALPROJECT-Maneesha-845142\\API\\Emart\\AdminService\\AdminService.csproj"
+              "E:\\FINALPROJECT-Maneesha-845142\\Api\\Emart\\AdminService\\AdminService.csproj": {
+                "projectPath": "E:\\FINALPROJECT-Maneesha-845142\\Api\\Emart\\AdminService\\AdminService.csproj"
               },
-              "E:\\FINALPROJECT-Maneesha-845142\\API\\Emart\\BuyerService\\BuyerService.csproj": {
-                "projectPath": "E:\\FINALPROJECT-Maneesha-845142\\API\\Emart\\BuyerService\\BuyerService.csproj"
+              "E:\\FINALPROJECT-Maneesha-845142\\Api\\Emart\\BuyerService\\BuyerService.csproj": {
+                "projectPath": "E:\\FINALPROJECT-Maneesha-845142\\Api\\Emart\\BuyerService\\BuyerService.csproj"
               },
-              "E:\\FINALPROJECT-Maneesha-845142\\API\\Emart\\SellerServices\\SellerServices.csproj": {
-                "projectPath": "E:\\FINALPROJECT-Maneesha-845142\\API\\Emart\\SellerServices\\SellerServices.csproj"
+              "E:\\FINALPROJECT-Maneesha-845142\\Api\\Emart\\SellerServices\\SellerServices.csproj": {
+                "projectPath": "E:\\FINALPROJECT-Maneesha-845142\\Api\\Emart\\SellerServices\\SellerServices.csproj"
               }
             }
           }
@@ -341,14 +353,14 @@
         }
       }
     },
-    "E:\\FINALPROJECT-Maneesha-845142\\API\\Emart\\SellerServices\\SellerServices.csproj": {
+    "E:\\FINALPROJECT-Maneesha-845142\\Api\\Emart\\SellerServices\\SellerServices.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\FINALPROJECT-Maneesha-845142\\API\\Emart\\SellerServices\\SellerServices.csproj",
+        "projectUniqueName": "E:\\FINALPROJECT-Maneesha-845142\\Api\\Emart\\SellerServices\\SellerServices.csproj",
         "projectName": "SellerServices",
-        "projectPath": "E:\\FINALPROJECT-Maneesha-845142\\API\\Emart\\SellerServices\\SellerServices.csproj",
+        "projectPath": "E:\\FINALPROJECT-Maneesha-845142\\Api\\Emart\\SellerServices\\SellerServices.csproj",
         "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "E:\\FINALPROJECT-Maneesha-845142\\API\\Emart\\SellerServices\\obj\\",
+        "outputPath": "E:\\FINALPROJECT-Maneesha-845142\\Api\\Emart\\SellerServices\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -392,6 +404,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[3.1.2, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.9.10, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",

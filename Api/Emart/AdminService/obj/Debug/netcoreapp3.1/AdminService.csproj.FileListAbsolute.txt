@@ -47,4 +47,3 @@ E:\FINALPROJECT-Maneesha-845142\API\Emart\AdminService\bin\Debug\netcoreapp3.1\r
 E:\FINALPROJECT-Maneesha-845142\API\Emart\AdminService\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 E:\FINALPROJECT-Maneesha-845142\API\Emart\AdminService\obj\Debug\netcoreapp3.1\AdminService.csproj.CopyComplete
 E:\FINALPROJECT-Maneesha-845142\API\Emart\AdminService\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
-E:\FINALPROJECT-Maneesha-845142\Api\Emart\AdminService\obj\Debug\netcoreapp3.1\AdminService.MvcApplicationPartsAssemblyInfo.cache

@@ -21,7 +21,7 @@ namespace EmartTestProject
         [Test]
         public void TestBuyerLogin()
         {
-            var result = _repo.BuyerLogin("manee", "manu");
+            var result = _repo.BuyerLogin("maneesha", "manu");
 
             Assert.IsNotNull(result);
 
@@ -39,14 +39,14 @@ namespace EmartTestProject
         {
             _repo.BuyerRegister(new Buyer()
             {
-                BuyerId = "121",
-                UserName = "das",
-                EmailId = "des@gmail.com",
-                Password = "des",
-                MobileNo = "8453657745",
+                BuyerId = "B21",
+                UserName = "evika",
+                EmailId = "devika@gmail.com",
+                Password = "devika",
+                MobileNo = "8453659945",
                 CreatedDateTime = DateTime.Now
             });
-            var result = _repo.BuyerLogin("devika", "dev");
+            var result = _repo.BuyerLogin("evika", "devika");
             Assert.NotNull(result);
 
         }
@@ -56,16 +56,16 @@ namespace EmartTestProject
             _repo.SellerRegister(new Seller()
             {
 
-                SellerId = "13",
-                UserName = "deika",
-                EmailId = "d@gmail.com",
-                Password = "deav",
-                MobileNo = "8423957745",
-                CompanyName = "QWE",
-                Gstin = "4",
+                SellerId = "S3",
+                UserName = "jaga",
+                EmailId = "j@gmail.com",
+                Password = "jaga",
+                MobileNo = "8423859745",
+                CompanyName = "WE",
+                Gstin = "7",
                 BriefDetails = "Good",
                 PostalAddress = "Chennai",
-                Website = "DAS"
+                Website = "JAGA"
 
             });
             var result = _repo.SellerLogin("devika", "dev");

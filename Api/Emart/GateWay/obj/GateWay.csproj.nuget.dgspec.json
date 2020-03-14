@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\FINALPROJECT-Maneesha-845142\\API\\Emart\\GateWay\\GateWay.csproj": {}
+    "E:\\FINALPROJECT-Maneesha-845142\\Api\\Emart\\GateWay\\GateWay.csproj": {}
   },
   "projects": {
-    "E:\\FINALPROJECT-Maneesha-845142\\API\\Emart\\GateWay\\GateWay.csproj": {
+    "E:\\FINALPROJECT-Maneesha-845142\\Api\\Emart\\GateWay\\GateWay.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\FINALPROJECT-Maneesha-845142\\API\\Emart\\GateWay\\GateWay.csproj",
+        "projectUniqueName": "E:\\FINALPROJECT-Maneesha-845142\\Api\\Emart\\GateWay\\GateWay.csproj",
         "projectName": "GateWay",
-        "projectPath": "E:\\FINALPROJECT-Maneesha-845142\\API\\Emart\\GateWay\\GateWay.csproj",
+        "projectPath": "E:\\FINALPROJECT-Maneesha-845142\\Api\\Emart\\GateWay\\GateWay.csproj",
         "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "E:\\FINALPROJECT-Maneesha-845142\\API\\Emart\\GateWay\\obj\\",
+        "outputPath": "E:\\FINALPROJECT-Maneesha-845142\\Api\\Emart\\GateWay\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

@@ -1,0 +1,104 @@
+Started by user admin
+Running as SYSTEM
+Building in workspace C:\Program Files (x86)\Jenkins\workspace\EmartUI
+No credentials specified
+ > git.exe rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git.exe config remote.origin.url https://github.com/Maneesha1/FINALPROJECT-Maneesha-845142 # timeout=10
+Fetching upstream changes from https://github.com/Maneesha1/FINALPROJECT-Maneesha-845142
+ > git.exe --version # timeout=10
+ > git.exe fetch --tags --force --progress -- https://github.com/Maneesha1/FINALPROJECT-Maneesha-845142 +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/origin/master^{commit}" # timeout=10
+Checking out Revision 19413e3593cbb00cc49c7542f5d39e43ea76401f (refs/remotes/origin/master)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f 19413e3593cbb00cc49c7542f5d39e43ea76401f # timeout=10
+Commit message: "first commit"
+ > git.exe rev-list --no-walk 19413e3593cbb00cc49c7542f5d39e43ea76401f # timeout=10
+[EmartUI] $ cmd /c call C:\Windows\TEMP\jenkins6070159099793661788.bat
+
+C:\Program Files (x86)\Jenkins\workspace\EmartUI>CD EMART-UI 
+
+C:\Program Files (x86)\Jenkins\workspace\EmartUI\EMART-UI>npm install 
+npm WARN bootstrap@4.4.1 requires a peer of jquery@1.9.1 - 3 but none is installed. You must install peer dependencies yourself.
+npm WARN bootstrap@4.4.1 requires a peer of popper.js@^1.16.0 but none is installed. You must install peer dependencies yourself.
+npm WARN karma-jasmine-html-reporter@1.5.2 requires a peer of jasmine-core@>=3.5 but none is installed. You must install peer dependencies yourself.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.11 (node_modules\webpack-dev-server\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.11: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.11 (node_modules\watchpack\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.11: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.11 (node_modules\karma\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.11: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.11 (node_modules\@angular\compiler-cli\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.11: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.1.2 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.1.2: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
+audited 19101 packages in 13.623s
+found 1 moderate severity vulnerability
+  run `npm audit fix` to fix them, or `npm audit` for details
+[EmartUI] $ cmd /c call C:\Windows\TEMP\jenkins3395540557573486776.bat
+
+C:\Program Files (x86)\Jenkins\workspace\EmartUI>CD EMART-UI 
+
+C:\Program Files (x86)\Jenkins\workspace\EmartUI\EMART-UI>npm run ng -- build --prod  
+
+> emart-ui@0.0.0 ng C:\Program Files (x86)\Jenkins\workspace\EmartUI\EMART-UI
+> ng "build" "--prod"
+
+Generating ES5 bundles for differential loading...
+ES5 bundle generation complete.
+
+chunk {3} polyfills-es5.8e50a9832860f7cf804a.js (polyfills-es5) 126 kB [initial] [rendered]
+chunk {2} polyfills-es2015.5b10b8fd823b6392f1fd.js (polyfills) 36.2 kB [initial] [rendered]
+chunk {0} runtime-es2015.c5fa8325f89fc516600b.js (runtime) 1.45 kB [entry] [rendered]
+chunk {0} runtime-es5.c5fa8325f89fc516600b.js (runtime) 1.45 kB [entry] [rendered]
+chunk {1} main-es2015.9d5450f34bed6ef8c393.js (main) 488 kB [initial] [rendered]
+chunk {1} main-es5.9d5450f34bed6ef8c393.js (main) 559 kB [initial] [rendered]
+chunk {4} styles.91774cb956cdf300af34.css (styles) 154 kB [initial] [rendered]
+Date: 2020-03-11T08:01:31.602Z - Hash: 26ec71646b1eaf01eeb1 - Time: 24803ms
+
+WARNING in ./src/app/Services/seller.service.ts
+There are multiple modules with names that only differ in casing.
+This can lead to unexpected behavior when compiling on a filesystem with other case-semantic.
+Use equal casing. Compare these module identifiers:
+* C:\Program Files (x86)\Jenkins\workspace\EmartUI\EMART-UI\node_modules\@angular-devkit\build-optimizer\src\build-optimizer\webpack-loader.js??ref--18-0!C:\Program Files (x86)\Jenkins\workspace\EmartUI\EMART-UI\node_modules\@ngtools\webpack\src\index.js!C:\Program Files (x86)\Jenkins\workspace\EmartUI\EMART-UI\src\app\Services\seller.service.ts
+    Used by 2 module(s), i. e.
+    C:\Program Files (x86)\Jenkins\workspace\EmartUI\EMART-UI\node_modules\@angular-devkit\build-optimizer\src\build-optimizer\webpack-loader.js??ref--18-0!C:\Program Files (x86)\Jenkins\workspace\EmartUI\EMART-UI\node_modules\@ngtools\webpack\src\index.js!C:\Program Files (x86)\Jenkins\workspace\EmartUI\EMART-UI\src\app\seller\viewitems\viewitems.component.ngfactory.js
+* C:\Program Files (x86)\Jenkins\workspace\EmartUI\EMART-UI\node_modules\@angular-devkit\build-optimizer\src\build-optimizer\webpack-loader.js??ref--18-0!C:\Program Files (x86)\Jenkins\workspace\EmartUI\EMART-UI\node_modules\@ngtools\webpack\src\index.js!C:\Program Files (x86)\Jenkins\workspace\EmartUI\EMART-UI\src\app\services\seller.service.ts
+    Used by 7 module(s), i. e.
+    C:\Program Files (x86)\Jenkins\workspace\EmartUI\EMART-UI\node_modules\@angular-devkit\build-optimizer\src\build-optimizer\webpack-loader.js??ref--18-0!C:\Program Files (x86)\Jenkins\workspace\EmartUI\EMART-UI\node_modules\@ngtools\webpack\src\index.js!C:\Program Files (x86)\Jenkins\workspace\EmartUI\EMART-UI\src\app\app.module.ngfactory.js
+ @ ./src/app/Services/seller.service.ts
+ @ ./src/app/seller/viewitems/viewitems.component.ngfactory.js
+ @ ./src/app/app.module.ngfactory.js
+ @ ./src/main.ts
+ @ multi ./src/main.ts
+[EmartUI] $ cmd /c call C:\Windows\TEMP\jenkins2945632449907927420.bat
+
+C:\Program Files (x86)\Jenkins\workspace\EmartUI>xcopy /s "C:\Program Files (x86)\Jenkins\workspace\EmartUI\EMART-UI\dist\Emart-UI" "C:\inetpub\wwwroot\Angular"  
+C:\Program Files (x86)\Jenkins\workspace\EmartUI\EMART-UI\dist\Emart-UI\3rdpartylicenses.txt
+C:\Program Files (x86)\Jenkins\workspace\EmartUI\EMART-UI\dist\Emart-UI\b2.0ad895166b5a55ba774c.png
+C:\Program Files (x86)\Jenkins\workspace\EmartUI\EMART-UI\dist\Emart-UI\index.html
+C:\Program Files (x86)\Jenkins\workspace\EmartUI\EMART-UI\dist\Emart-UI\m1.102ea957627874cd582c.jpg
+C:\Program Files (x86)\Jenkins\workspace\EmartUI\EMART-UI\dist\Emart-UI\main-es2015.9d5450f34bed6ef8c393.js
+C:\Program Files (x86)\Jenkins\workspace\EmartUI\EMART-UI\dist\Emart-UI\main-es5.9d5450f34bed6ef8c393.js
+C:\Program Files (x86)\Jenkins\workspace\EmartUI\EMART-UI\dist\Emart-UI\polyfills-es2015.5b10b8fd823b6392f1fd.js
+C:\Program Files (x86)\Jenkins\workspace\EmartUI\EMART-UI\dist\Emart-UI\polyfills-es5.8e50a9832860f7cf804a.js
+C:\Program Files (x86)\Jenkins\workspace\EmartUI\EMART-UI\dist\Emart-UI\runtime-es2015.c5fa8325f89fc516600b.js
+C:\Program Files (x86)\Jenkins\workspace\EmartUI\EMART-UI\dist\Emart-UI\runtime-es5.c5fa8325f89fc516600b.js
+C:\Program Files (x86)\Jenkins\workspace\EmartUI\EMART-UI\dist\Emart-UI\styles.91774cb956cdf300af34.css
+11 File(s) copied
+
+C:\Program Files (x86)\Jenkins\workspace\EmartUI>C:\Windows\System32\iisreset.exe
+
+Attempting stop...
+
+Internet services successfully stopped
+
+Attempting start...
+
+Internet services successfully restarted
+
+
+C:\Program Files (x86)\Jenkins\workspace\EmartUI>exit 0 
+Finished: SUCCESS
